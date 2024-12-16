@@ -16,7 +16,6 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background: #000000;
     padding: 0 3%;
     display: flex;
     align-items: center;
@@ -38,7 +37,6 @@ header .navbar ul {
     top: 100%;
     left: 0;
     right: 0;
-    background: #000000;
     z-index: 1000;
 }
 
@@ -51,10 +49,13 @@ header .navbar ul li {
 header .navbar ul li a {
     padding: 0 1.5rem;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: #ffffff;
     display: block;
     white-space: nowrap;
+}
+.radar-tekst {
+    font-size: 6rem;
 }
 
 header .navbar ul li ul {
@@ -62,7 +63,7 @@ header .navbar ul li ul {
     left: 0;
     top: 100%;
     display: none;
-    background: #333;
+
 }
 
 header .navbar ul li:hover ul {
@@ -86,6 +87,7 @@ header .navbar ul li:hover ul {
     max-width: 80%; 
     overflow: hidden; 
     height: 1000px; 
+    color: aliceblue; 
 }
 
 .artikel-1-img {
@@ -134,6 +136,17 @@ header .navbar ul li:hover ul {
     margin: 0.5rem 0; 
     padding-left: 4rem;
     padding-right: 4rem;
+    font-size: 1.3rem;
+    margin-bottom: 15%;
+}
+
+h2{
+    color: aliceblue; 
+    margin-left: 10%;
+}
+
+.frivillig-højre {
+    margin-top: 12%;
 }
 
 .frivilig {
