@@ -283,7 +283,7 @@ h2 {
 
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     /* Navbar for Desktop */
     .navbar ul {
         display: flex; /* Show menu in row format */
@@ -322,7 +322,7 @@ h2 {
 @media (max-width: 1024px) {
    
     .burger {
-
+        margin-left: 80%;
     }
 
 
@@ -331,7 +331,24 @@ h2 {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 791px) {
+    .burger {
+        margin-left: 75%;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin: 5%;
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+    
+    .tekst-lp {
+        font-size: 22px;
+        padding-left: 0.9rem;
+        padding-right: 0.9rem;
+    }
+    
 
 .artikel-content4 {
         margin-left: 5%;
@@ -360,8 +377,21 @@ h2 {
 
 @media (max-width: 591px) {
 
-    .body {
-        color: black;
+    .burger {
+        margin-left: 65%;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin: 5%;
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+    
+    .tekst-lp {
+        font-size: 18px;
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
     }
     
 
@@ -373,18 +403,24 @@ h2 {
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 440px) {
 
-    
+.burger {
+    margin-left: 55%;
+}
+
 
 h1 {
-    font-size: 15px;
-    margin-left: 3rem;
-    margin-top: 1.5rem;
+    font-size: 20px;
+    margin: 7%;
+    padding-left: 0.7rem;
+    padding-right: 0.8rem;
 }
 
 .tekst-lp {
-    font-size: 8px;
+    font-size: 15px;
+    padding-left: 0.7rem;
+    padding-right: 0.8rem;
 }
 
 }
