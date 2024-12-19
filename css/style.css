@@ -297,7 +297,7 @@ h2 {
 
 
 
-@media (min-width: 1000px) {
+@media (min-width: 1001px) {
     
     .navbar ul {
         display: flex; /* Show menu in row format */
@@ -360,7 +360,7 @@ h2 {
 
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
    
     .burger {
         margin-left: 80%;
