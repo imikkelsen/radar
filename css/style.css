@@ -11,7 +11,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header Styling */
+
 header {
     position: relative;
     display: flex;
@@ -21,7 +21,7 @@ header {
     z-index: 1000;
 }
 
-/* Burger Menu Styling */
+
 .burger {
     display: block;
     cursor: pointer;
@@ -77,7 +77,7 @@ footer{
 
 
 
-/* Navbar Default State */
+
 .navbar ul {
     list-style: none;
     display: none; /* Hidden by default */
@@ -106,7 +106,7 @@ footer{
     padding: 0.8rem;
 }
 
-/* Dropdown Menu for Sub-Items */
+
 
 .navbar ul li ul {
     display: none;
@@ -298,7 +298,7 @@ h2 {
 
 
 @media (min-width: 1000px) {
-    /* Navbar for Desktop */
+    
     .navbar ul {
         display: flex; /* Show menu in row format */
         flex-direction: row;
